@@ -115,7 +115,23 @@
     
 ### Установление соответствий переменных
 ### main.c:
+	> * -84[rbp] - argc
+	> * -96[rbp] - argv
+	> * -64[rbp] - x
+	> * -8[rbp] - result
+	> * -56[rbp] - output в блоке if при argc == 3
+	> * -40[rbp] - input
+	> * -48[rbp] - output в блоке else при argc == 3
+	> * -24[rbp] - t_start
+	> * -12[rbp] - i
+	> * -32[rbp] - t_end
+	> * -68[rbp] - answer
+	> * -72[rbp] - seed
 	> * 
-	> *
 ### task.c:
+	> * -4[rbp] - n
+	> * -16[rbp] - diff
+	> * -32[rbp] - e
+	> * -56[rbp] - x
+	> * -24[rbp] - res
     
