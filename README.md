@@ -15,6 +15,7 @@
 > * ./program.exe - запуск с консольным вводом/выводом
 
 ### 2. Преобразование с-кода в ассемблерный производилось с помощью следующих комманд: 
+### Создаем ассемблерные файлы
 > * gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./main.c -S -o ./main.s
 > * gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./task.c -S -o ./task.s
 ### Создание object файлов
