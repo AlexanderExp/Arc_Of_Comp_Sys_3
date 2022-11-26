@@ -17,12 +17,12 @@
 ### 2. Преобразование с-кода в ассемблерный производилось с помощью следующих комманд: 
 ### Создаем ассемблерные файлы
 > * gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./main.c -S -o ./main.s
-> * gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./function.c -S -o ./function.s
+> * gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -fverbose-asm ./task.c -S -o ./task.s
 ### Создание object файлов
-> * gcc ./main.s -c -lm -o main.o
-> * gcc ./function.s -c -lm -o function.o
+> * gcc ./main.s -c -o main.o 
+> * gcc ./task.s -c -o task.o
 ### Линковка
-> * gcc ./function.o main.o -lm -o program.exe
+> * gcc ./task.o main.o -lm -o program.exe
 
 ### 3. Модификация ассемблерного кода
 ### Убрал лишнее, сделал несколько оптимизаций
