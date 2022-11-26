@@ -27,8 +27,8 @@
 
 ### 3. Модификация ассемблерного кода
 ### Убрал лишнее, сделал несколько оптимизаций
--	  .ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
--	  .section	.note.GNU-stack,"",@progbits
+    -	  .ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
+    -	  .section	.note.GNU-stack,"",@progbits
 - 	.section	.note.gnu.property,"a"
 -  	.align 8
 - 	.long	 1f - 0f
