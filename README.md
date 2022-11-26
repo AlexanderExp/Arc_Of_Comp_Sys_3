@@ -73,22 +73,22 @@
 -	mov	rdi, rax
 -	mov	eax, 0
   
-+	 lea	rdx, -64[rbp]
-+	 lea	rsi, .LC8[rip]
-+	 mov	rdi, QWORD PTR -40[rbp]
-+	 mov	eax, 0
++ lea	rdx, -64[rbp]
++	lea	rsi, .LC8[rip]
++	mov	rdi, QWORD PTR -40[rbp]
++ mov	eax, 0
   
   
--  mov	rax, QWORD PTR -40[rbp]
--  mov	rdi, rax
+- mov	rax, QWORD PTR -40[rbp]
+- mov	rdi, rax
   
-+  mov rdi, QWORD PTR -40[rbp]
++ mov rdi, QWORD PTR -40[rbp]
   
   
--   mov	rax, QWORD PTR -56[rbp]
-- 	mov	rdi, rax	#
+- mov	rax, QWORD PTR -56[rbp]
+- mov	rdi, rax	#
   
-+   mov	rdi, QWORD PTR -56[rbp]
++ mov	rdi, QWORD PTR -56[rbp]
   
   
   
